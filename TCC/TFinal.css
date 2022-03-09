@@ -1,0 +1,233 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body
+{
+background-image: url(ff.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#menuu
+{
+  background-color: rgba(73, 3, 52, 0.863);
+opacity: 1;
+padding: 3px;
+align-items: center;
+border-color: rgb(83, 129, 214);
+margin-right: 8px;
+margin-left: 4px;
+}
+#inicioo
+{
+  background-color: rgba(73, 3, 52, 0.863);
+opacity: 1;
+padding: 3px;
+align-items: center;
+border-color: rgb(83, 129, 214);
+margin-right: 8px;
+margin-left: 4px;
+}
+#contatoo
+{
+  background-color: rgba(73, 3, 52, 0.863);
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  border-color: rgb(83, 129, 214);
+  margin-right: 8px;
+  margin-left: 4px;
+}
+#modall
+{
+  background-color: rgba(73, 3, 52, 0.863);
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  border-color: rgb(83, 129, 214);
+  margin-right: 8px;
+  margin-left: 4px;
+  
+}
+#dicaa
+{
+  background-color: rgba(73, 3, 52, 0.863);
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  border-color: rgb(83, 129, 214);
+  margin-right: 8px;
+  margin-left: 4px;
+}
+#conheceuu
+{
+  background-color: rgba(73, 3, 52, 0.863);
+  opacity: 1;
+  padding: 3px;
+  align-items: center;
+  border-color: rgb(83, 129, 214);
+  margin-right: 8px;
+  margin-left: 4px;
+}
+
+.modal{
+  display: none;
+  border: rgb(168, 20, 33);
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  padding-top: 30%;
+  background-color: rgba(87, 3, 44, 0.6);
+}
+.mostrar-modal{
+  display: block;
+}
+#conteudo-modal{
+  border: 3px solid rgb(165, 38, 59);
+  background-color: rgb(26, 1, 13);
+  padding: 30px;
+  margin: auto;
+  width: 80%;
+}
+.fechar{
+  position: absolute;
+  width: 20px;
+  text-align: center;
+  right: 10%;
+  top: 40%;
+  border-radius: 50%;
+  font-size: 16px;
+}
+.contrainer
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background: -moz-linear-gradient(161deg,white 90%, purple 50%);
+}
+h1{
+  width: 50%;
+  text-transform: uppercase;
+  color: beige;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 35px;
+}
+
+#cadastro
+{
+  width: 50%;
+  padding: 100px;
+  border-radius: 40px;
+  background: rgb(73, 4, 38);
+  box-shadow: rgb(168, 20, 33);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border: 1px solid rgba(187, 59, 121, 0.6);
+}
+
+.area-input
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.area-input input{
+  width: 45%;
+}
+
+.dica
+{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.area-email
+{
+  width: 100%;
+  display: flex;
+}
+.area-email input{
+  width: 100%;
+}
+.area-do-botao
+{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+#botao-enviar
+{
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: 45px;
+  background-color: rgb(38, 5, 47);
+  box-shadow: 0 8px 32px 0 rgb(26, 1, 13);
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#botao-enviar:hover
+{
+  transition: .2s ease;
+  background-color: rgb(82, 5, 133);
+}
+#botao-enviar-submit:hover
+{
+  transition: .2s ease;
+  background-color: rgb(82, 5, 133);
+}
+#botao-enviar-submit
+{
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: 45px;
+  background-color: rgb(38, 5, 47);
+  box-shadow: 0 8px 32px 0 rgb(26, 1, 13);
+  color: aliceblue;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+input
+{
+  color: rgb(26, 1, 13);
+  font-weight: bold;
+  height: 45px;
+  padding-left: 10px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgb(38, 5, 47);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(87, 3, 44, 0.6);
+}
+input::placeholder
+{
+color:rgb(38, 5, 47);
+}
+input[type=number]
+{
+  color: rgba(87, 3, 44, 0.6);
+}
+input:focus
+{
+  outline: none;
+  border: 1px solid rgb(82, 5, 133);}
+  footer{
+    position: absolute;
+    top: 90vh;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  
